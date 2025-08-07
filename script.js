@@ -366,7 +366,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function loadKakaoMap() {
   const script = document.createElement("script");
-  script.src = "https://dapi.kakao.com/v2/maps/sdk.js?appkey=3fe43cbb49bb651327ac27bd30831021&autoload=false";
+  script.src = "https://dapi.kakao.com/v2/maps/sdk.js?appkey=3fe43cbb49bb651327ac27bd30831021&autoload=true";
   script.onload = () => {
     kakao.maps.load(() => {
       const container = document.getElementById("kakao-map");
