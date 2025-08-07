@@ -270,25 +270,25 @@ document.addEventListener('DOMContentLoaded', () => {
       content: {
         title: '안병진 💗 김윤아 결혼합니다',
         description: '2025년 10월 18일 토요일 오후 1시, 서울대학교 연구공원 웨딩홀',
-        imageUrl: 'https://yoonakim95.github.io/WeddingInvitation/kakao_thumbnail.jpeg',
+        imageUrl: 'https://wedding-invitation-251018.github.io/Yoona_Byeongjin/kakao_thumbnail.jpeg',
         link: {
-          mobileWebUrl: 'https://yoonakim95.github.io/WeddingInvitation/',
-          webUrl: 'https://yoonakim95.github.io/WeddingInvitation/',
+          mobileWebUrl: 'https://wedding-invitation-251018.github.io/Yoona_Byeongjin/',
+          webUrl: 'https://wedding-invitation-251018.github.io/Yoona_Byeongjin/',
         },
       },
       buttons: [
         {
           title: '모바일 청첩장 보기',
           link: {
-            mobileWebUrl: 'https://yoonakim95.github.io/WeddingInvitation/',
-            webUrl: 'https://yoonakim95.github.io/WeddingInvitation/',
+            mobileWebUrl: 'https://wedding-invitation-251018.github.io/Yoona_Byeongjin/',
+            webUrl: 'https://wedding-invitation-251018.github.io/Yoona_Byeongjin/',
           },
         },
         // {
         //   title: '카카오맵 열기',
         //   link: {
-        //     mobileWebUrl: 'https://yoonakim95.github.io/WeddingInvitation/',
-        //     webUrl: 'https://yoonakim95.github.io/WeddingInvitation/',
+        //     mobileWebUrl: 'https://wedding-invitation-251018.github.io/Yoona_Byeongjin/',
+        //     webUrl: 'https://wedding-invitation-251018.github.io/Yoona_Byeongjin/',
         //   },
         // },
       ],
