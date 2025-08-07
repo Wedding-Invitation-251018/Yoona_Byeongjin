@@ -263,7 +263,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // Kakao 공유
-  Kakao.init('2f6bea57641d1dd00d85e80a5fb8ba78');
+  Kakao.init('3fe43cbb49bb651327ac27bd30831021');
   document.getElementById('kakaotalk-sharing-btn').addEventListener('click', function () {
     Kakao.Share.sendDefault({
       objectType: 'feed',
@@ -366,7 +366,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function loadKakaoMap() {
   const script = document.createElement("script");
-  script.src = "https://dapi.kakao.com/v2/maps/sdk.js?appkey=2f6bea57641d1dd00d85e80a5fb8ba78&autoload=false";
+  script.src = "https://dapi.kakao.com/v2/maps/sdk.js?appkey=3fe43cbb49bb651327ac27bd30831021&autoload=false";
   script.onload = () => {
     kakao.maps.load(() => {
       const container = document.getElementById("kakao-map");
